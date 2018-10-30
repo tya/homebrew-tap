@@ -1,5 +1,4 @@
 class Tpm < Formula
-
   desc "TMUX plugin manager"
   homepage "https://github.com/tmux-plugins/tpm"
   url "https://github.com/tmux-plugins/tpm/archive/v3.0.0.tar.gz"
@@ -23,7 +22,7 @@ class Tpm < Formula
 				...
 
 				# init tpm in very last line of .tmux.conf
-				run #{opt_share}/tpm/tpm'
+				run #{opt_share}/tpm'
 
 			Then reload TMUX environment
 				# type this in terminal if tmux is already running
